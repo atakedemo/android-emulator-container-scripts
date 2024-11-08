@@ -32,8 +32,8 @@ def main():
         ]
         cfg.write("\n".join(lines))
 
-    replace("develop/envoy.yaml", "android-emulator-webrtc-demo", config["projectId"])
-    replace("docker/envoy.yaml", "android-emulator-webrtc-demo", config["projectId"])
+    replace("develop/envoy.yaml", "android-emulator-ac251-default-rtdb", config["projectId"])
+    replace("docker/envoy.yaml", "android-emulator-ac251-default-rtdb", config["projectId"])
 
 
 if __name__ == "__main__":
